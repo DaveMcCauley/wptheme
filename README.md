@@ -77,3 +77,9 @@ team's release seems even stupider.
 The monorepo approach damn near requires trunk based development. Because one 
 team's changes could break antoher team's code... testing must be... 100% 
 rigorous. 
+
+One last thought to consider. Using git submodules and symlinked files from 
+poly repo are 100% compatable. Forward and backward. *what is the least 
+amount of code I could write?* Git submodles requires zero code. But there's
+a good chance we'll hate the workflow. If we do... we have a **version 2.0**
+option already in the pocket, ready to go. Hmm.....
